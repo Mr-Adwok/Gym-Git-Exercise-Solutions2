@@ -34,8 +34,18 @@ git push origin main
  git stash pop stash@{1}
  git push origin dev
 
-* Exercise 3
+
+* Bundle 2
+* Exercise 1
 git add .
 git commit -m ""
 git push
+git merge ft/bundle-2
+
+
+* Exercise 2
+git add .
+git commit -m ""
+git push origin main/ft/bundle2
+git checkout main/ft/bundle-2
 git merge ft/bundle-2

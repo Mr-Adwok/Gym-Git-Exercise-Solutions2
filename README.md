@@ -43,9 +43,53 @@ git push
 git merge ft/bundle-2
 
 
+
+bundle3
 * Exercise 2
+git merge branch
+git branch ft/service-redesign
+git push origin main
+git checkout main /ft/service-redesign
+git merge ft/service-redesign
+ git rebase main
+
+
+
+
+bundle 4
+Exercise1
+- git remote add git-copy https://github.com/<your-username>/   gym-git-copy.git
+- git add home.html
+- git commit -m "Updated my home page"
+-git push origin main
+- git push git-copy main
+
+Exercise2
+git checkout -b ft/footer
+git add footer.html
+git commit -m "ok"
+git push -u origin ft/footer
+git checkout -b ft/squashing
+git merge --squash ft/footer
+git commit -m "footer changes squashing"
+git push -u origin ft/squashing
+
+bundle 5
+Exercise
+git add index.html
+git commit -m "updated index.html"
+git push
+
+
+bundle 6
+Exercise 1
+git checkout -b menuFeature
+
+Excersie 2
+git checkout -b bug-fix
 git add .
-git commit -m ""
-git push origin main/ft/bundle2
-git checkout main/ft/bundle-2
-git merge ft/bundle-2
+git commit -m "updated index-4.html to Contact.html
+
+
+
+

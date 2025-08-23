@@ -1,6 +1,3 @@
-Perfect 👍 I’ll merge **all bundles (1–6)** into **one full Markdown article** so you can copy it at once.
-
-Here’s the complete version:
 
 ````markdown
 # Gym-Git-Exercise-Solutions2
